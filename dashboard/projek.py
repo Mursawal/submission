@@ -36,7 +36,7 @@ def rfm_analisis(df):
     return rfm_df
 
 # Membaca dataset
-main_df = pd.read_csv("D:\My Data ALL\Documents\data\dashboard\main.csv")
+main_df = pd.read_csv(r"D:\My Data ALL\Documents\data\dashboard\main.csv")
 
 # Membuat DataFrame untuk analisis
 categori_orders_df = categori_df(main_df)
